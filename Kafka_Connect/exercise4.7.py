@@ -74,7 +74,7 @@ async def consume():
             )
             return
         print("Consumed records via REST Proxy:")
-        print(f"{json.dumps(resp.json())}")
+        print(f"{json.dumps(resp.json(), indent=2)}")
         await asyncio.sleep(0.1)
 
 
