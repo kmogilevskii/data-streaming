@@ -27,7 +27,7 @@ app = faust.App("exercise2", broker="kafka://localhost:9092")
 clickevents_topic = app.topic(
     "com.udacity.streams.clickevents",
     key_type=str,
-    value_type=ClickEvent(),
+    value_type=ClickEvent,
 )
 
 @app.agent(clickevents_topic)
