@@ -1,0 +1,48 @@
+33:C 09 Aug 2022 06:03:37.041 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+33:C 09 Aug 2022 06:03:37.041 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=33, just started
+33:C 09 Aug 2022 06:03:37.041 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 33
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+33:M 09 Aug 2022 06:03:37.048 # Server initialized
+33:M 09 Aug 2022 06:03:37.048 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+33:M 09 Aug 2022 06:03:37.048 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+33:M 09 Aug 2022 06:03:37.049 * Loading RDB produced by version 6.0.6
+33:M 09 Aug 2022 06:03:37.049 * RDB age 1041 seconds
+33:M 09 Aug 2022 06:03:37.049 * RDB memory usage when created 2.34 Mb
+33:M 09 Aug 2022 06:03:37.055 * DB loaded from disk: 0.007 seconds
+33:M 09 Aug 2022 06:03:37.055 * Ready to accept connections
+33:M 09 Aug 2022 06:04:46.285 * Replica 127.0.0.1:45260 asks for synchronization
+33:M 09 Aug 2022 06:04:46.285 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '967f778137ae7ea5b7dae6caae47b888a72b06c6', my replication IDs are '4c3f411cfa5007b1d9a9137f7aec6a966da9087b' and '0000000000000000000000000000000000000000')
+33:M 09 Aug 2022 06:04:46.285 * Replication backlog created, my new replication IDs are '1f12e1b79b871becc91129b61dbf39f10beecd5d' and '0000000000000000000000000000000000000000'
+33:M 09 Aug 2022 06:04:46.285 * Starting BGSAVE for SYNC with target: disk
+33:M 09 Aug 2022 06:04:46.285 * Background saving started by pid 1577
+1577:C 09 Aug 2022 06:04:46.355 * DB saved on disk
+1577:C 09 Aug 2022 06:04:46.356 * RDB: 0 MB of memory used by copy-on-write
+33:M 09 Aug 2022 06:04:46.386 * Background saving terminated with success
+33:M 09 Aug 2022 06:04:46.387 * Synchronization with replica 127.0.0.1:45260 succeeded
+33:M 09 Aug 2022 06:11:53.836 * 10 changes in 300 seconds. Saving...
+33:M 09 Aug 2022 06:11:53.837 * Background saving started by pid 1936
+1936:C 09 Aug 2022 06:11:53.927 * DB saved on disk
+1936:C 09 Aug 2022 06:11:53.927 * RDB: 0 MB of memory used by copy-on-write
+33:M 09 Aug 2022 06:11:53.938 * Background saving terminated with success
+33:M 09 Aug 2022 06:16:54.033 * 10 changes in 300 seconds. Saving...
+33:M 09 Aug 2022 06:16:54.033 * Background saving started by pid 26310
+26310:C 09 Aug 2022 06:16:54.103 * DB saved on disk
+26310:C 09 Aug 2022 06:16:54.104 * RDB: 0 MB of memory used by copy-on-write
+33:M 09 Aug 2022 06:16:54.133 * Background saving terminated with success
